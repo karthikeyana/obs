@@ -22,5 +22,3 @@ Run
 ```bash
 npm run dev
 ```
-# obs
-# obs
