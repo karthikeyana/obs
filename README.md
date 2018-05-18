@@ -43,7 +43,7 @@ user apis:
 1) list book
 ```
 url:http://localhost:8080/book/list-book
-method: get
+method: post
 params: sid, user_id
 ```
 1) search book
@@ -64,5 +64,5 @@ params: sid, user_id, author, isbn, book_title, genre, file(image)
 ```
 url:http://localhost:8080/book/edit-book
 method: post
-params: sid, user_id, author, isbn, book_title, genre(image)
+params: sid, user_id, author, isbn, book_title, genre, file(image)
 ```
