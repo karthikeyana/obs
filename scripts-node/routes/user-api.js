@@ -49,6 +49,11 @@ export class UserApi extends Controller {
             }
           };
         });
+      }).catch(e => {
+        return {
+          status:'ERROR',
+          message: "user not found!"
+        }
       });
   }
 

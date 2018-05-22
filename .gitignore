@@ -1,4 +1,4 @@
 # dependencies
-./node_modules
+node_modules
 scripts-web/node_modules
 package-lock.json

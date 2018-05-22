@@ -138,9 +138,9 @@ class Login extends Component {
       .post(apiBaseUrl + "sign-in", payload)
       .then(function(response) {
         console.log(response);
-        if (response.status == 200) {
+        if (response.data.success == true ) {
           console.log("Login successfull");
-        } else if (response.status == 204) {
+        } else if (response.data.success == false ) {
           console.log("Username password do not match");
           alert(response.data.success);
         } else {
